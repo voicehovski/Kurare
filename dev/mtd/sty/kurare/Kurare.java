@@ -11,4 +11,8 @@ public class Kurare {
 	public static void pr ( String message ) {
 		System .out .println ( message );
 	}
+	
+	public static void pr ( Model model ) {
+		System .out .println ( model .getValue (  ) );
+	}
 }
