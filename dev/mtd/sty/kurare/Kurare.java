@@ -11,4 +11,8 @@ public class Kurare {
 	public static void pr ( String message ) {
 		System .out .println ( message );
 	}
+	
+	public static void pr ( int i ) {
+		System .out .println ( i );
+	}
 }
