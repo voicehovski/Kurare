@@ -1,3 +1,5 @@
+package dev.mtd.sty.kurare;
+
 public class Model {
 	private int value;
 	
