@@ -5,7 +5,7 @@ public class Kurare {
 	public static final String MESSAGE = "Ok";
 	
 	public static void main (String [] args) {
-		pr ( MESSAGE );
+		pr ( new Model (3) );
 	}
 	
 	public static void pr ( String message ) {
