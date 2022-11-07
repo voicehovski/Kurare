@@ -1,5 +1,7 @@
 package dev.mtd.sty.kurare;
 
+import java.lang.Number;
+
 // Just nice class
 public class Kurare {
 	public static final String MESSAGE = "Ok";
@@ -12,7 +14,7 @@ public class Kurare {
 		System .out .println ( message );
 	}
 	
-	public static void pr ( int i ) {	// Do we need this method
+	public static void pr ( Number i ) {
 		System .out .println ( i );
 	}
 	
