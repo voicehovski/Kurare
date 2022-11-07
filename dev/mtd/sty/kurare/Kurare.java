@@ -12,7 +12,11 @@ public class Kurare {
 		System .out .println ( message );
 	}
 	
-	public static void pr ( int i ) {
+	public static void pr ( int i ) {	// Do we need this method
 		System .out .println ( i );
+	}
+	
+	public static void pr ( Object o ) {
+		System .out .println ( o );
 	}
 }
