@@ -1,6 +1,10 @@
 package dev.mtd.sty.kurare;
 
-// Just nice class
+/*
+	This application will contain main class, models and utiltities
+	
+*/
+
 public class Kurare {
 	public static final String MESSAGE = "Ok";
 	
