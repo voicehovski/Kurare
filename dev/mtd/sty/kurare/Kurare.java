@@ -2,11 +2,6 @@ package dev.mtd.sty.kurare;
 
 import java.lang.Number;
 
-/*
-	This application will contain main class, models and utiltities
-	
-*/
-
 public class Kurare {
 	public static final String MESSAGE = "Ok";
 	
