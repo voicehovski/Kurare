@@ -1,12 +1,14 @@
 package dev.mtd.sty.kurare;
 
 import java.lang.Number;
+import dev.mtd.sty.kurare.feature_uno.Uno;
 
 public class Kurare {
 	public static final String MESSAGE = "Ok";
 	
 	public static void main (String [] args) {
 		pr ( MESSAGE );
+		pr ( new Uno (  ) .action ( 444 ) );
 	}
 	
 	public static void pr ( String message ) {
