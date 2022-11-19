@@ -4,6 +4,7 @@ package dev.mtd.sty.kurare.feature_uno;
 public class Uno {
 	public static final String TEMPLATE = "[%d]";
 	
+	// Не знаю зачем такие сложности, но пусть будет
 	private String template = TEMPLATE;
 	
 	public Uno ( String template ) {
