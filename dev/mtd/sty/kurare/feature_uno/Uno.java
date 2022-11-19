@@ -23,4 +23,8 @@ public class Uno {
 	public String action (int i) {
 		return String .format ( template, i );
 	}
+	
+	public String getTemplate (  ) {
+		return template;
+	}
 }
