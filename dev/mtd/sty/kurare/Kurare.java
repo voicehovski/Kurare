@@ -9,6 +9,8 @@ public class Kurare {
 	public static void main (String [] args) {
 		pr ( MESSAGE );
 		pr ( new Uno (  ) .action ( 444 ) );
+		pr ( new Uno ( "(%d)" ) .action ( 444 ) );
+		pr ( new Uno (  ) .setTemplate ( "#%d#" ) .action ( 444 ) );
 	}
 	
 	public static void pr ( String message ) {

@@ -10,9 +10,13 @@ public class Uno {
 		this .template  = template;
 	}
 	
-		
 	public Uno (  ) {
 		
+	}
+	
+	public Uno setTemplate ( String template ) {
+		this .template = template;
+		return this;
 	}
 	
 	public String action (int i) {
